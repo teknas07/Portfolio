@@ -1,0 +1,17 @@
+<%- include('partials/header'); -%>
+<div id="wrapper">
+    <img src="/images/logo.png">
+    <div class="loader-outer">
+      <div class="loader-inner">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+      </div>
+    </div>
+    <h1><span>Sanket is Thinking</span></h1>
+</div>
+
+<%  
+setTimeout(function () {
+       // after 2 seconds
+       window.location = "/" + page_name;
+    }, 5000)
+    %>

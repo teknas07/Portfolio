@@ -1,0 +1,1156 @@
+body{
+    background-color: #1d1d1d;
+    height: 100%;
+}
+
+.side{
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    overflow-x: hidden;
+    left: 0px;
+    top: 0px;
+    background-color:black;
+}
+
+
+.logo{  
+position: fixed;
+width: 28px;
+height: 34px;
+left: 20px;
+top: 10px;
+}
+
+.logoname{
+    color: white;
+    font-size: 15px;
+    font-family: 'Oregano';
+    padding-top: 30px;
+    padding-left: 8px;
+    position: fixed;
+}
+
+/* .home{
+position: absolute;
+top: 200px;
+width: 70px;
+height: 51px;
+left: 0px;
+display: block;
+text-align: center;
+} */
+
+.home1{
+margin-top: 180px;
+}
+
+.side a {
+    display: block;
+    color: #9bdace;
+    padding: 12px;
+    text-decoration: none;
+    background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .side {
+      width: 100%;
+      height: auto;
+      position: fixed;
+    }
+    .home1{
+    margin-top:0;
+    margin-left: 120px;
+    }
+    .side a {float: left;
+    padding: 12px;}
+    #row {margin-left: 0px;}
+
+    #cont .body2,#cont .abody3,#cont .abody4,#cont .abody5,#cont .body3, #cont .body4,#cont .cbody3,#cont1 .abody3,#cont1 .body2 {
+        left: 120px;
+    }
+    #cont .body1,#cont .body6,#cont1 .body1 {
+        left: 80px;
+    }
+    #cont .body7{
+        left: 40px;
+    }
+    #cont .hd{
+        top: 80px;
+        left: 150px;
+    }
+    #cont .body5{
+        left: 500px;
+    }
+    #cont .demo2{
+        top: 435px;
+        left: 160px;
+    }
+    #cont .btn{
+        left: 180px;
+    }
+    .hd .d1{
+        font-size: 60px;
+    }
+    #resp{
+        margin-left: 80px;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .side a {
+      text-align: center;
+      float: none;
+    }
+    .side{
+    height:auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+.home i,.about i,.skills i,.work i, .contact i, .resume i{
+    color: #9bdace;
+    padding-top: 10px;
+}
+
+#current{
+    background-color: #1d1d1d;
+}
+.about > .active{
+    background-color: #1d1d1d;
+}
+
+.home:hover .fa-home::before{
+    content: "Home";
+    text-align: center;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.resume:hover .fa-file::before{
+    content: "Resume";
+    text-align: left;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+
+/* .about{
+    position: absolute;
+    left:0px;
+    top:270px;
+    width: 70px;
+    height: 51px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+} */
+
+.about:hover .fa-user::before{
+    content: "About";
+    text-align: center;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+/* .skills{
+    position: absolute;
+    left: 0px;
+    top: 340px;
+    width: 70px;
+    height: 51px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+} */
+
+/* .skills{
+    width: 70px;
+    height: 73px;
+    text-align: center;
+} */
+
+.skills:hover .fa-cog::before{
+    content: "Skills";
+    text-align: center;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+  
+/* .work{
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    width: 70px;
+    height: 51px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+} */
+
+/* .work{
+    width: 70px;
+    height: 73px;
+    text-align: center;
+} */
+
+
+.work:hover .fa-briefcase::before{
+    content: "Work";
+    text-align: center;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+/* .contact{
+    position: absolute;
+    left: 0px;
+    top: 480px;
+    width: 70px;
+    height: 51px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+} */
+
+/* .contact{
+    position:absolute;
+    width: 70px;
+    height: 73px;
+    text-align: center;
+} */
+
+.contact:hover .fa-address-book::before{
+    content: "Contact";
+    text-align: center;
+    color: #00ffd1;
+    text-transform: uppercase;
+    font-family: 'Oregano';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+
+.body1{
+    position: absolute;
+width: 48px;
+height: 33px;
+left: 120px;
+top: 59px;
+
+font-family: 'La Belle Aurore', cursive;
+font-size: 16px;
+line-height: 33px;
+
+color: #515152;
+}
+
+.body2{
+    position: absolute;
+width: 29px;
+height: 33px;
+left: 170px;
+top: 128px;
+
+font-family: 'La Belle Aurore', cursive;
+font-size: 16px;
+line-height: 33px;
+
+color: #515152;
+
+}
+
+.hd{
+    position: absolute;
+width: 450px;
+height: 309px;
+left: 240px;
+top: 80px;
+}
+
+.shead{
+    font-family: Oregano;
+    background: linear-gradient( #30CFD0 30.96%, #fc0b56 87.5%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.d1{
+    font-size: 70px;
+    text-align: top;
+    color: white;
+    font-family: 'Oregano';
+}
+
+.body3{
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+width: 41px;
+height: 37px;
+left: 650px;
+top: 411px;
+color: #515152;
+}
+
+.body4{
+    position: absolute;
+    text-align: left;
+    font-family: 'La Belle Aurore', cursive;
+    font-size:16px;
+width: 27px;
+height: 37px;
+left: 200px;
+top: 455px;
+color: #515152;
+}
+
+.body5{
+    position: absolute;
+    text-align: right;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+width: 49px;
+height: 37px;
+left: 630px;
+top: 455px;
+color: #515152;
+}
+
+.demo2{
+    color:#515152;
+    text-align: left;
+    top: 438px;
+    left: 240px;
+    position: absolute;
+    font-family: 'Oregano';
+    font-size: 18px;
+    letter-spacing: 3px;
+    
+}
+
+.demo3{
+    color: #515152;
+    width: 50px;
+    height: 50px;
+    top: 350px;
+    left: 500px; 
+}
+
+
+.body6{
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    width: 48px;
+    height: 33px;
+    left: 120px;
+    top: 580px;
+}
+
+.body7{
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    width: 48px;
+    height: 33px;
+    left: 70px;
+    top: 600px;
+}
+
+.blk1{
+    display: block;
+}
+
+
+.hexagon {
+    position: absolute;
+    width: 500px; 
+    height: 288.68px;
+    background-color: rgba(0, 255, 209, 0.1);
+    background-image: url("/images/home.png");
+    margin: 144.34px 0;
+    top:50px;
+    left: 800px;
+    
+}
+  
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
+  
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 144.34px solid rgba(0, 255, 209, 0.1);
+}
+  
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 144.34px solid rgba(0, 255, 209, 0.1);
+}
+
+
+.top {
+    height: 45px;
+    width: 90px;
+}
+
+.top {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+  
+.rotate {
+    animation: 1s linear infinite rotate;
+    position: relative;
+    top: -100px;
+    transform-origin: 50% 100%;
+    left:500px;
+    background:rgba(0,255,209,0.1);
+}
+  
+@keyframes rotate {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+}
+
+
+.quarter-circle-top-right{
+    width: 100px;
+    height: 100px;
+    background: rgba(252, 0, 78, 0.2);
+    left:1265px;
+    top:0;
+    border-radius: 0 0 0 100px;
+    -moz-border-radius: 0 0 0 100px;
+    -webkit-border-radius: 0 0 0 100px;
+    position:absolute;
+}
+
+.quarter-circle-top-right1{
+    width: 100px;
+    height: 100px;
+    background: rgba(252, 0, 78, 0.2);
+    left:1265px;
+    top:555px;
+    bottom: 0;
+    border-radius: 100px 0 0 0;
+    -moz-border-radius: 100px 0 0 0;
+    -webkit-border-radius: 100px 0 0 0;
+    position:absolute;
+}
+
+.btn{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 270px;
+    top: 520px;
+    background-color: #1d1d1d;
+    border: 2px solid #00ffd1;
+    color: #00ffd1;
+}
+  
+.btn:hover {
+    background-color: #00ffd1;
+    color: black;
+}
+
+.abt{
+    color: rgba(252, 0, 78, 0.99);
+    height: 100px;
+    width: 200px;
+    padding-left: 150px;
+    padding-top: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oregano',cursive;
+}
+
+.abt1{
+    color: rgba(252, 0, 78, 0.99);
+    height: 100px;
+    width: 200px;
+    padding-left: 230px;
+    padding-top: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oregano',cursive;
+}
+
+.middle a {
+    text-decoration: none;
+}
+
+.w3-oregano{
+    font-family: 'Oregano',cursive;
+    font-size: 40px;
+}
+/* .abt h1:hover {
+    color: #00ffd1;
+    -webkit-animation: pulse 1s ease infinite;
+  -moz-animation: pulse 1s ease infinite;
+  -ms-animation: pulse 1s ease infinite;
+  -o-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+} */
+.abt p:hover {
+    color: #00ffd1;
+    -webkit-animation: pulse 1s ease infinite;
+  -moz-animation: pulse 1s ease infinite;
+  -ms-animation: pulse 1s ease infinite;
+  -o-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+}
+
+.abt1 p:hover {
+    color: #00ffd1;
+    -webkit-animation: pulse 1s ease infinite;
+  -moz-animation: pulse 1s ease infinite;
+  -ms-animation: pulse 1s ease infinite;
+  -o-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+  
+    25% {
+      -webkit-transform: scale(1.1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+    }
+}
+  
+@-moz-keyframes pulse {
+    0% {
+      -moz-transform: scale(1);
+    }
+  
+    25% {
+      -moz-transform: scale(1.1);
+    }
+  
+    50% {
+      -moz-transform: scale(1);
+    }
+  
+    100% {
+      -moz-transform: scale(1);
+    }
+}
+  
+@-ms-keyframes pulse {
+    0% {
+      -ms-transform: scale(1);
+    }
+  
+    25% {
+      -ms-transform: scale(1.1);
+    }
+  
+    50% {
+      -ms-transform: scale(1);
+    }
+  
+    100% {
+      -ms-transform: scale(1);
+    }
+}
+  
+@-o-keyframes pulse {
+    0% {
+      -o-transform: scale(1);
+    }
+  
+    25% {
+      -o-transform: scale(1.1);
+    }
+  
+    50% {
+      -o-transform: scale(1);
+    }
+  
+    100% {
+      -o-transform: scale(1);
+    }
+}
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+}
+
+.abody3{
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+    width: 41px;
+    height: 37px;
+    left: 170px;
+    top: 210px;
+    color: #515152;
+}
+
+.abody4{
+    position: absolute;
+    text-align: left;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+width: 27px;
+height: 37px;
+left: 170px;
+top: 255px;
+color: #515152;
+}
+
+.abody5{
+    position: absolute;
+    text-align: right;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+width: 27px;
+height: 37px;
+left: 170px;
+top: 455px;
+color: #515152;
+}
+
+.img1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    
+}
+
+.abot{
+    background-color: rgba(0, 255, 209, 0.1);;
+}
+
+.w3-row-padding{
+    margin-left: 180px;
+    margin-top:80px;
+}
+
+
+.container1 {
+    position: relative;
+    width: 70%;
+    top:0;
+}
+
+#resp{
+    padding-top: 40px;
+}
+  
+.image {
+    opacity: 0.3;
+    display: block;
+    width: 100%;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-bottom: 15px;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container1:hover .image {
+    opacity: 1;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+  
+.container1:hover .middle {
+    opacity: 1;
+}
+
+.container1:hover .content1{
+    visibility: hidden;
+}
+
+.spara {
+    margin-top: 160px;
+    margin-left: 130px;
+    word-wrap: break-word;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.spara a{
+    text-decoration: none;
+    color: #00ffd1;
+}
+
+.content1 {
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    top:0px;
+    text-align: center;
+    height: 160px;
+    visibility: visible;
+    word-wrap: break-word;
+}
+  
+.text {
+    background-color: #00ffd1;
+    color:black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 250px;
+    font-family: 'La Belle Aurore', cursive;
+    letter-spacing: 3px;
+}
+
+#cont{
+    height: 656px;
+} 
+
+
+.w3-row{
+    margin-left: 60px;
+}
+
+.map img{
+    filter: blur(1.5px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+}
+
+.box {
+    width:8%;
+    height:8%;
+    background-image:   url(http://www.clker.com/cliparts/W/0/g/a/W/E/map-pin-red.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.secondh{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.secondh p{
+    margin-top: 80px;
+    width: 500px;
+    word-wrap: break-word;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    margin-left: 50px;
+}
+
+
+
+.container {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+  
+.card-wrapper {
+    width: 320px;
+    height: 300px;
+  position: relative;
+}
+  
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: 0.5s;
+}  
+.card-image {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    width: 250px;
+    height: 300px;
+    z-index: 2;
+    transition: .5s;
+}
+    
+.card-image :hover img {
+    opacity: 0.4;
+    transition: .5s;
+}
+  
+.card:hover .card-image {
+    transform: translateY(-100px);
+    transition: all .9s;
+}
+  
+.social-icons {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+}    
+.social-icons  li {
+  list-style: none;
+}      
+.social-icons  a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 6px;
+    transition: .4s;
+    transform: translateY(200px);
+    opacity: 0;
+} 
+  
+.card:hover .social-icons li a {
+    transform: translateY(0px);
+    opacity: 1; 
+}
+  
+.social-icons li a:hover {
+    background: #00ffd1; 
+    transition: .2s;
+}
+.social-icons .fab :hover{
+      color: #fff;
+} 
+  
+.social-icons li a .fab {
+    transition: .8s;
+}  
+.social-icons li a .fab:hover {
+    transform: rotateY(360deg);
+    color: #fff;
+} 
+
+  
+.card:hover li:nth-child(1) a {
+    transition-delay: 0.1s;
+}
+.card:hover li:nth-child(2) a {
+    transition-delay: 0.2s;
+}
+.card:hover li:nth-child(3) a {
+    transition-delay: 0.3s;
+}
+.card:hover li:nth-child(4) a {
+    transition-delay: 0.4s;
+}
+  
+  /**** Personal Details ****/
+  
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #1D1D1D;
+    width: 100%;
+    height: 120px;
+    z-index: 1;
+    padding: 10px;
+    color: #fff;
+}
+.details  h2 {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}       
+.details  job-title {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.cbody3{
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 16px;
+    width: 41px;
+    height: 37px;
+    left: 200px;
+    top: 210px;
+    color: #515152;
+}
+
+.cnt {
+    position: relative;
+    max-width: 800px;
+    top:100px;
+}
+  
+.cnt img {vertical-align: middle;}
+
+.cnt .content {
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    top:0;
+}
+
+/* .home div:hover{
+    background-color: white;
+} */
+
+#wrapper1 {
+    position: absolute;
+    margin: auto;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: 656px;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#202020;
+}
+  
+.loader-outer1 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border-bottom: 1px solid #303030;
+    background: #151515;
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 1;
+
+}
+.loader-inner1 {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: -100px;
+    width: auto;
+    height: 58px;
+    color: crimson;
+    text-align: center;
+    text-shadow: 0 0 20px crimson;
+    font-size: 60px;
+    z-index: 2;
+    animation: load 2s infinite linear;
+}
+  
+#wrapper1  h1 {
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    width:300px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0 0 20px crimson;
+    letter-spacing: 0.1em;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: crimson;
+}
+#wrapper1  span {
+    display: none;
+}
+#wrapper1 h1:after {
+    animation: txt 1s infinite;
+    content: "";
+}
+
+  
+@keyframes load {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 260px;
+    }
+}
+  
+@keyframes txt {
+    0% {
+      content: "Sanket is Thinking";
+    }
+    35% {
+      content: "Sanket is Thinking.";
+    }
+    65% {
+      content: "Sanket is Thinking..";
+    }
+    100% {
+      content: "Sanket is Thinking...";
+    }
+}
+
+
+
+#wrap {
+    padding:100px 0 0 200px;
+	-webkit-perspective: 800px;
+	-webkit-perspective-origin: 50% 200px;
+}
+#prism {
+    -webkit-transform-style:preserve-3d;
+    /*position:relative;*/
+    width:200px;
+    /*-webkit-transform-origin: 0 0 ;*/
+    -webkit-transform:rotateY(-45deg);
+    -webkit-animation:spin 5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate3d(1,1,1,0deg); }
+    to { -webkit-transform: rotate3d(1,1,1,360deg); }
+}
+#prism div {
+    position:absolute;
+    height:200px;
+    background-color:transparent;
+    border: 1px solid gray;
+    color:#515152;
+    text-align:center;
+    line-height:200px;
+    font-weight:bold;
+ 
+    box-shadow: 0px 0px 20px inset;
+ 
+}
+
+#front {
+   width:300px;
+   -webkit-transform-origin: 50% 100%;
+   -webkit-transform:translateZ(100px)  rotateX(30deg); 
+}
+
+#back {
+  width:300px; 
+  -webkit-transform-origin: 50% 100%;
+  -webkit-transform: translateZ(-100px) rotateY(180deg)  rotateX(30deg)
+   
+       
+}
+
+#bottom {
+  width:300px;  
+  -webkit-transform: rotateX(270deg) translateY(100px);
+	-webkit-transform-origin: bottom center;   
+}
+
+
+.callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+}
+  
+.callout-container {
+    padding: 15px;
+    background-color: #303030;
+    color: white;
+}
+  
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #30CFD0;
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+.closebtn:hover {
+    color: lightgrey;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"  href="/images/logo.png">
+    <title>Sanket Khandelwal</title>
+    <script src="https://kit.fontawesome.com/26aa76c73e.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oregano|La+Belle+Aurore&display=swap' rel='stylesheet'>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    
+    
+    
+    
+</head>
+<body>
+    <div class="side">
+        <img class="logo" src="images/logo.png" alt="logo" height="25px" weight="30px">
+        <div class="logoname">
+            <p>SANKET</p>
+        </div>
+            <div class="home1">
+                <div class="home">
+                <a <% if (page_name === 'home') { %>id="current" <% } %> href="/"><i class="fas fa-home fa-2x home"  aria-hidden="true" value="home"></i></a>
+                </div>
+                <div class="about">
+                <a  <% if (page_name === 'about') { %>id="current" <% } %> href="/about"><i class="fas fa-user fa-2x about" value="about"></i></a>
+                </div>
+                <div class="skills" >
+                <a <% if (page_name === 'skills') { %>id="current" <% } %> href="/skills"><i class="fas fa-cog fa-2x skills" value="skills"></i></a>
+                </div>
+                <div class="work" >
+                <a <% if (page_name === 'work') { %>id="current" <% } %> href="/work"><i class="fas fa-briefcase fa-2x work" value="work"></i></a>
+                </div>
+                <div class="contact" >
+                <a <% if (page_name === 'contact') { %>id="current" <% } %> href="/contact"><i class="fas fa-address-book fa-2x contact" value="contact"></i></a>
+                </div>
+                <div class="resume" >
+                    <a href="/resume"><i class="far fa-file fa-2x resume" value="resume"></i></a>
+                </div>
+            </div>
+    </div>
