@@ -68,7 +68,7 @@ margin-top: 180px;
     #row {margin-left: 0px;}
 
     #cont .body2,#cont .abody3,#cont .abody4,#cont .abody5,#cont .body3, #cont .body4,#cont .cbody3,#cont1 .abody3,#cont1 .body2 {
-        left: 120px;
+        left: 100px;
     }
     #cont .body1,#cont .body6,#cont1 .body1 {
         left: 80px;
@@ -96,24 +96,102 @@ margin-top: 180px;
     #resp{
         margin-left: 80px;
     }
+    #cont .spara{
+        font-size: 13px;
+        margin-left: 110px;
+        margin-top: 170px;
+        letter-spacing: 0.1rem;
+    }
+    #cont .abody5{
+        top: 520px;
+    }
+    #cont .abt{
+        padding-left: 120px;
+    }
+    #cont1 .abt1{
+        padding-left: 130px;
+    }
+    #resp .content1{
+        font-size: 11px;
+        letter-spacing: 0.1rem;
+    }
+    #cont .secondh p{
+        font-size: 12px;
+        margin-left:0;
+        width: 300px;
+        margin-left: 80px;
+    }
 }
   
 @media screen and (max-width: 400px) {
-    .side a {
-      text-align: center;
-      float: none;
+    .side {
+        width: 100%;
+        height: auto;
+        position: fixed;
     }
-    .side{
-    height:auto;
+    .home1{
+      margin-top:0;
+      margin-left: 80px;
+    }
+    .side a {float: left;
+      padding: 8px;}
+    #row {margin-left: 0px;}
+  
+    #cont .body2,#cont .abody3,#cont .abody4,#cont .abody5,#cont .body3, #cont .body4,#cont .cbody3,#cont1 .abody3,#cont1 .body2 {
+        left: 80px;
+    }
+    #cont .body1,#cont .body6,#cont1 .body1 {
+      left: 70px;
+    }
+    #cont .body7{
+       left: 20px;
+    }
+    #cont .hd{
+      top: 80px;
+      left: 130px;
+    }
+    #cont .body5{
+      left: 480px;
+    }
+    #cont .demo2{
+      top: 435px;
+      left: 140px;
+    }
+    #cont .btn{
+      left: 160px;
+    }
+    .hd .d1{
+      font-size: 40px;
+    }
+     #resp{
+      margin-left: 60px;
+    }
+    #cont .spara{
+      font-size: 10px;
+      margin-left: 90px;
+      margin-top: 170px;
+      letter-spacing: 0.1rem;
+    }
+    #cont .abody5{
+      top: 520px;
+    }
+    #cont .abt{
+      padding-left: 100px;
+    }
+    #cont1 .abt1{
+      padding-left: 110px;
+    }
+    #resp .content1{
+      font-size: 10px;
+      letter-spacing: 0.1rem;
+    }
+    #cont .secondh p{
+      font-size: 10px;
+      margin-left:0;
+      width: 300px;
+      margin-left: 60px;
     }
 }
-
-
-
-
-
-
-
 
 
 .home i,.about i,.skills i,.work i, .contact i, .resume i{
@@ -800,8 +878,6 @@ color: #515152;
     margin-top: 80px;
     width: 500px;
     word-wrap: break-word;
-    text-indent: 50px;
-    text-align: justify;
     letter-spacing: 3px;
     margin-left: 50px;
 }

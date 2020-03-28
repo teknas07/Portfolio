@@ -3,7 +3,9 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const fs = require("fs"); 
 
+
 const app = express();
+const router = express.Router();
 
 app.set('view engine' ,'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
@@ -38,7 +40,6 @@ app.get("/resume",function(req,res){
         res.send(data);
     });
 });
-
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Server has started on port 3000");
