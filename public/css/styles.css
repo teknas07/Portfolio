@@ -1,6 +1,5 @@
 body{
     background-color: #1d1d1d;
-    height: 100%;
 }
 
 .side{
@@ -147,8 +146,8 @@ margin-top: 180px;
        left: 20px;
     }
     #cont .hd{
-      top: 80px;
-      left: 130px;
+      top: 100px;
+      left: 120px;
     }
     #cont .body5{
       left: 480px;
@@ -163,11 +162,11 @@ margin-top: 180px;
     .hd .d1{
       font-size: 40px;
     }
-     #resp{
+    #resp{
       margin-left: 60px;
     }
     #cont .spara{
-      font-size: 10px;
+      font-size: 12px;
       margin-left: 90px;
       margin-top: 170px;
       letter-spacing: 0.1rem;
@@ -186,10 +185,13 @@ margin-top: 180px;
       letter-spacing: 0.1rem;
     }
     #cont .secondh p{
-      font-size: 10px;
+      font-size: 12px;
       margin-left:0;
       width: 300px;
-      margin-left: 60px;
+      margin-left: 20px;
+    }
+    #cont2{
+        visibility: hidden;
     }
 }
 
