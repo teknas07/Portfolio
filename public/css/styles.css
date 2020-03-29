@@ -1,4 +1,4 @@
-body{
+html,body{
     background-color: #1d1d1d;
 }
 
@@ -192,6 +192,14 @@ margin-top: 180px;
     }
     .abot{
         visibility: hidden;
+    }
+    .quarter-circle-top-right{
+        left: 100%;
+        top: 0;
+    }
+    .quarter-circle-top-right1{
+        left: 100%;
+        bottom: 0;
     }
 }
 
@@ -530,7 +538,7 @@ color: #515152;
     width: 100px;
     height: 100px;
     background: rgba(252, 0, 78, 0.2);
-    left:1265px;
+    left:100%;
     top:0;
     border-radius: 0 0 0 100px;
     -moz-border-radius: 0 0 0 100px;
@@ -542,8 +550,7 @@ color: #515152;
     width: 100px;
     height: 100px;
     background: rgba(252, 0, 78, 0.2);
-    left:1265px;
-    top:555px;
+    left:100%;
     bottom: 0;
     border-radius: 100px 0 0 0;
     -moz-border-radius: 100px 0 0 0;
