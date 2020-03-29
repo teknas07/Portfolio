@@ -175,7 +175,7 @@ margin-top: 180px;
       letter-spacing: 0.1rem;
     }
     #cont .abody5{
-      top: 520px;
+      top: 540px;
     }
     #cont .abt{
       padding-left: 100px;
@@ -1175,6 +1175,8 @@ color: #515152;
 
 
 #wrap {
+    margin-top: 220px;
+    margin-right: 180px;
     padding:100px 0 0 200px;
 	-webkit-perspective: 800px;
 	-webkit-perspective-origin: 50% 200px;
@@ -1393,7 +1395,7 @@ color: #515152;
     ======================================================*/
 .overlay-menu {
     background: black;
-    color: #1d1d1d;
+    color: #fc0b56;
     display: flex;
     align-items: center;
     justify-content: center;
