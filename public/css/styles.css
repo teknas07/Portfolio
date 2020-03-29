@@ -148,7 +148,7 @@ margin-top: 180px;
     }
     #cont .hd{
       top: 100px;
-      left: 100px;
+      left: 80px;
     }
     #cont .body5{
       left: 480px;
@@ -188,10 +188,7 @@ margin-top: 180px;
     #cont .secondh p{
       font-size: 12px;
       width: 300px;
-      margin-left: 50px;
-    }
-    .abot{
-        visibility: hidden;
+      margin-left: 30px;
     }
     .quarter-circle-top-right{
         left: 100%;
