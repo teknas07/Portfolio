@@ -154,7 +154,8 @@ margin-top: 180px;
       left: 80px;
     }
     #cont .body5{
-      left: 480px;
+      left: 60px;
+      top: 500px;
     }
     #cont .demo2{
       top: 435px;
@@ -164,10 +165,10 @@ margin-top: 180px;
       left: 160px;
     }
     .hd .d1{
-      font-size: 60px;
+      font-size: 50px;
     }
     #resp{
-      margin-left: 120px;
+      margin-left: 90px;
     }
     #cont .spara{
       font-size: 12px;
@@ -1087,8 +1088,8 @@ color: #515152;
     right: 0;
     bottom: 0;
     left: 0;
-    max-width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    height: 656px;
     text-align: center;
     padding-top: 100px;
     background-color:#202020;
@@ -1401,17 +1402,16 @@ color: #515152;
 .overlay-menu {
     background: black;
     color: #fc0b56;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    overflow: hidden;
+    overflow:hidden;
     top: 0;
     right: 0;
     padding-right: 15px;
     transform: translateX(-100%);
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+    height: 10vh;
     -webkit-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
 }
@@ -1419,14 +1419,20 @@ color: #515152;
 .overlay-menu ul, .overlay-menu li {
     display: block;
     position: relative;
+    float: left;
+}
+
+.overlay-menu ul{
+    margin-left: 50px;
 }
   
 .overlay-menu li a {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 4px;
+    font-weight: bolder;
   /*   opacity: 0; */
-    padding: 10px 0;
+    padding: 15px;
     text-align: left;
     text-transform: uppercase;
     -webkit-transition: color 0.3s ease;

@@ -33,19 +33,19 @@
                 <a <% if (page_name === 'home') { %>id="current" <% } %> href="/"><i class="fas fa-home fa-2x home"  aria-hidden="true" value="home"></i></a>
                 </div>
                 <div class="about">
-                <a  <% if (page_name === 'about') { %>id="current" <% } %> href="/about"><i class="fas fa-user fa-2x about" value="about"></i></a>
+                <a  <% if (page_name === 'about') { %>id="current" <% } %> href="/about"><i class="fas fa-user fa-2x about" aria-hidden="true"value="about"></i></a>
                 </div>
                 <div class="skills" >
-                <a <% if (page_name === 'skills') { %>id="current" <% } %> href="/skills"><i class="fas fa-cog fa-2x skills" value="skills"></i></a>
+                <a <% if (page_name === 'skills') { %>id="current" <% } %> href="/skills"><i class="fas fa-cog fa-2x skills" aria-hidden="true" value="skills"></i></a>
                 </div>
                 <div class="work" >
-                <a <% if (page_name === 'work') { %>id="current" <% } %> href="/work"><i class="fas fa-briefcase fa-2x work" value="work"></i></a>
+                <a <% if (page_name === 'work') { %>id="current" <% } %> href="/work"><i class="fas fa-briefcase fa-2x work" aria-hidden="true" value="work"></i></a>
                 </div>
                 <div class="contact" >
-                <a <% if (page_name === 'contact') { %>id="current" <% } %> href="/contact"><i class="fas fa-address-book fa-2x contact" value="contact"></i></a>
+                <a <% if (page_name === 'contact') { %>id="current" <% } %> href="/contact"><i class="fas fa-address-book fa-2x contact" aria-hidden="true" value="contact"></i></a>
                 </div>
                 <div class="resume" >
-                    <a href="/resume"><i class="far fa-file fa-2x resume" value="resume"></i></a>
+                    <a href="/resume"><i class="far fa-file fa-2x resume" aria-hidden="true" value="resume"></i></a>
                 </div>
             </div>
     </nav>
@@ -57,11 +57,11 @@
       
     <div class="overlay-menu">
         <ul id="menu">
-            <li class="h1"><a href="/">Home</a></li>
-            <li class="h2"><a href="/about">About Me</a></li>
-            <li class="h3"><a href="/skills">Skills</a></li>
-            <li class="h4"><a href="/work">My Work</a></li>
-            <li class="h5"><a href="/contact">Contact</a></li>
-            <li class="h6"><a href="/resume">Resume</a></li>
+            <li class="h1"><a <% if (page_name === 'home') { %>id="current" <% } %> class="home" href="/"><i class="fas fa-home"  aria-hidden="true"></i></a></li>
+            <li class="h2"><a <% if (page_name === 'about') { %>id="current" <% } %> class="about" href="/about"><i class="fas fa-user"  aria-hidden="true"></i></a></li>
+            <li class="h3"><a <% if (page_name === 'skills') { %>id="current" <% } %> class="skills" href="/skills"><i class="fas fa-cog "  aria-hidden="true"></i></a></li>
+            <li class="h4"><a <% if (page_name === 'work') { %>id="current" <% } %> class="work" href="/work"><i class="fas fa-briefcase"  aria-hidden="true"></i></a></li>
+            <li class="h5"><a <% if (page_name === 'contact') { %>id="current" <% } %> class="contact" href="/contact"><i class="fas fa-address-book"  aria-hidden="true"></i></a></li>
+            <li class="h6"><a class="resume" href="/resume"><i class="fas fa-file"  aria-hidden="true"></i></a></li>
           </ul>
     </div>
