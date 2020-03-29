@@ -1410,7 +1410,7 @@ color: #515152;
     right: 0;
     padding-right: 15px;
     transform: translateX(-100%);
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     -webkit-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
@@ -1420,10 +1420,6 @@ color: #515152;
     display: block;
     position: relative;
     float: left;
-}
-
-.overlay-menu ul{
-    margin-left: 50px;
 }
   
 .overlay-menu li a {
